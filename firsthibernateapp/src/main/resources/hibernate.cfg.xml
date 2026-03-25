@@ -9,8 +9,8 @@
 		<property name="hibernate.query.factory_class">org.hibernate.hql.classic.ClassicQueryTranslatorFactory</property>
 		<property name="hibernate.show_sql">true</property>
 		<property name="hibernate.format_sql">true</property>
-		<property name="hibernate.hbm2ddl.auto">none</property>
-	
+		<property name="hibernate.hbm2ddl.auto">create</property>
+		<mapping class="com.mphasis.firsthibernateapp.model.Contact" />
 
 	</session-factory>
 </hibernate-configuration>
