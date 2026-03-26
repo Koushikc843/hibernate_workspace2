@@ -11,6 +11,13 @@
 		<property name="hibernate.format_sql">true</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		<mapping class="com.mphasis.firsthibernateapp.model.Contact" />
+		<mapping class="com.mphasis.firsthibernateapp.model.User"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Address"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Locker"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Customer"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Department"/>
+
+<mapping class="com.mphasis.firsthibernateapp.AppUser"/>
 
 	</session-factory>
 </hibernate-configuration>

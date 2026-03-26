@@ -22,7 +22,6 @@ public class customerDAO {
         System.out.println("Customer saved successfully!");
     }
 
-    // Retrieve by ID
     public void findCustomerById(Long id) {
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         session.beginTransaction();
@@ -38,7 +37,6 @@ public class customerDAO {
         session.close();
     }
 
-    // Update phone number
     public void updateCustomerPhone(Long id, String newPhone) {
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         session.beginTransaction();
