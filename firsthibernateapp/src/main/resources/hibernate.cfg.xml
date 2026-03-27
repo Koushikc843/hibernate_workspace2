@@ -17,7 +17,10 @@
 <mapping class="com.mphasis.firsthibernateapp.model.Customer"/>
 <mapping class="com.mphasis.firsthibernateapp.model.Department"/>
 
+<mapping class="com.mphasis.firsthibernateapp.model.Employee"/>
 <mapping class="com.mphasis.firsthibernateapp.AppUser"/>
+<mapping class="com.mphasis.firsthibernateapp.model.BlogPost"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Comment"/>
 
 	</session-factory>
 </hibernate-configuration>

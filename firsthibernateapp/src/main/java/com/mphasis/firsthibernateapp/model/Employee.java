@@ -86,9 +86,9 @@ public boolean equals(Object obj) {
 }
 
 
-public void setDepartment() {
-	// TODO Auto-generated method stub
-	
-}
 
+	public void setDepartment(Department department) {
+	    this.department = department;
+	}
+	
 }

@@ -11,10 +11,9 @@ public class AppContact {
 
     public static void main(String[] args) {
 
-        // Load Hibernate config
         Configuration cfg = new Configuration().configure("hibernate.cfg.xml");
 
-        // Add annotated class
+
         cfg.addAnnotatedClass(Contact.class);
 
         // Build SessionFactory

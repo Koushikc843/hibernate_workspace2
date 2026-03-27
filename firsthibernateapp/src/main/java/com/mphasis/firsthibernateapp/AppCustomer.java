@@ -15,12 +15,7 @@ public class AppCustomer {
 
     public static void main(String[] args) {
 
-//        Configuration cfg = new Configuration().configure("hibernate.cfg.xml");
-//        cfg.addAnnotatedClass(User.class);
-//        cfg.addAnnotatedClass(Address.class);
-//
-//        SessionFactory sessionFactory = cfg.buildSessionFactory();
-
+//        
         Session s = HibernateUtil.getSessionFactory().getCurrentSession();
         s.beginTransaction();
 
@@ -30,11 +25,9 @@ public class AppCustomer {
         c.setLocker(l);
         s.persist(c);
       
-        s.getTransaction().commit();   
-       
+        s.getTransaction().commit();  
         s.close();
-       
-
+      
         System.out.println("saved");
     }
 }
