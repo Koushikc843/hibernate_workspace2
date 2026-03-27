@@ -22,5 +22,23 @@
 <mapping class="com.mphasis.firsthibernateapp.model.BlogPost"/>
 <mapping class="com.mphasis.firsthibernateapp.model.Comment"/>
 
+<mapping class="com.mphasis.firsthibernateapp.model.Course"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Student"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Vehicle"/>
+<mapping class="com.mphasis.firsthibernateapp.model.FourWheeler"/>
+<mapping class="com.mphasis.firsthibernateapp.model.TwoWheeler"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Account"/>
+<mapping class="com.mphasis.firsthibernateapp.model.creditaccount"/>
+<mapping class="com.mphasis.firsthibernateapp.model.debitaccount"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Students"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Books"/>
+<mapping class="com.mphasis.firsthibernateapp.LibraryService"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Product"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Book"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Electronics"/>
+<mapping class="com.mphasis.firsthibernateapp.model.Clothing"/>
+
+
+
 	</session-factory>
 </hibernate-configuration>
