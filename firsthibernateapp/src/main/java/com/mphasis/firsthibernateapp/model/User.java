@@ -5,10 +5,13 @@ import java.util.Objects;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.NamedQuery;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "users")
+@NamedQuery(name="findAll",query="From User")
+@NamedQuery(name="findByName",query="From User u where u.name=:nm")
 public class User {
 
     @Id
